@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IntroToHTML</title>
+
+    <style>
+        h1
+        {
+            //color: green;
+            color: rgb(160, 44, 200);
+        }
+
+        body
+        {
+            background-color: white;
+            line-height: 1.5 em;
+            text-align: center;
+            border: 2px solid red;
+            border-top: 10px dotted purple;
+        }
+
+        #beach
+        {
+            background-color: green;
+            color: black;
+            font-family: cursive;
+            font-size: 12px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        #palm
+        {
+            position: absolute;
+            top: 60px;
+            left: 80px;
+            z-index: 1;
+        }
+
+        .vacation
+        {
+            background-color: yellow;
+            font-family: fantasy;
+            //margin: 15px 0px 20 px 50px;
+        }
+
+        table, th, td
+        {
+            border: 2px solid black;
+            table-align: center;
+        }
+
+        button
+        {
+            color: red;
+            background-color: black;
+            position: absolute;
+            top: 70px;
+            left: 40px;
+            height: 30px;
+            width: 300px;
+            font-family: cursive;
+            font-size: 20px;
+            border-radius: 20px;
+            z-index: 2;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- This is how you comment -->
+
+    <h1>Messing around with HTML</h1>
+    <p1>Its actually pretty cool<br></p1>
+
+    <a target = "_blank" href = "https://www.youtube.com/embed/prG3mvho3tU"> This is where we are learning HTML from.<br></a>
+
+    <img src = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1072753294%2F960x0.jpg%3Ffit%3Dscale" alt = "random pic" width = "400">
+
+    <img id = "palm" src = "https://i.pinimg.com/originals/4c/ec/47/4cec47b3504194e11e577572f1ed8609.png#" width = "150">
+
+    <p id = "beach">Beach</p>
+
+    <p class = "vacation"> Sand   </p>
+    <p class = "vacation"> Water   </p>
+    <p class = "vacation"> Sun   </p>
+
+    <!-- creating a table -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sand</th>
+                <th>Water</th>
+                <th>Sun</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brown</td>
+                <td>Blue</td>
+                <td>Yellow</td>
+            </tr>
+            <tr>
+                <td>Soft</td>
+                <td>Wet</td>
+                <td>Hot</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button>Click me</button>
+
+</body>
+</html>

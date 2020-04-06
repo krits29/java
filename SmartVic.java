@@ -18,4 +18,5 @@ public class SmartVic extends Vic
 		moveOn();
 		moveOn();
 	}
+
 }
